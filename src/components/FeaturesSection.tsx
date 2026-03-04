@@ -5,7 +5,7 @@ const features = [
   { icon: Zap, badge: "Fast", title: "Instant Setup", desc: "Start mining in minutes. No hardware or technical knowledge required." },
   { icon: Shield, badge: "Secure", title: "Secure & Reliable", desc: "Bank-level security with advanced encryption and 99.9% uptime." },
   { icon: Globe, badge: "Global", title: "Global Access", desc: "Mine from anywhere in the world with globally distributed servers." },
-  { icon: Wallet, badge: "Daily", title: "Daily Payouts", desc: "Receive your PEPE rewards daily. Instant withdrawal available." },
+  { icon: Wallet, badge: "Daily", title: "Daily Payouts", desc: "Receive your BNB rewards daily. Instant withdrawal available." },
   { icon: Cpu, badge: "Premium", title: "Premium Hardware", desc: "State-of-the-art equipment optimized for maximum energy efficiency." },
   { icon: Users, badge: "5% Bonus", title: "Affiliate Program", desc: "Earn 5% bonus on every referral. Grow your network and earn more." },
 ];
@@ -20,10 +20,10 @@ const FeaturesSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <p className="text-sm font-medium text-primary">Why choose PepeMine?</p>
+          <p className="text-sm font-medium text-primary">Why choose BNBMine?</p>
           <h2 className="mt-2 text-4xl font-bold">Powerful Features</h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            Our platform offers the most efficient and secure way to mine Pepecoin without the hassle of managing physical hardware.
+            Our platform offers the most efficient and secure way to mine BNB without the hassle of managing physical hardware.
           </p>
         </motion.div>
 

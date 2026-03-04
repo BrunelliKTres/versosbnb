@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "2.5M+", label: "PEPE Mined" },
+  { value: "12K+", label: "BNB Mined" },
   { value: "125K+", label: "Active Miners" },
   { value: "50 TH/s", label: "Total Hashrate" },
   { value: "99.9%", label: "Guaranteed Uptime" },
