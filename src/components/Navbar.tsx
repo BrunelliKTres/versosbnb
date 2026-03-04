@@ -10,7 +10,7 @@ const Navbar = () => {
             <Zap className="h-5 w-5 text-primary" />
           </div>
           <div>
-            <span className="font-display text-lg font-bold text-foreground">PEPEMINE</span>
+            <span className="font-display text-lg font-bold text-foreground">BNBMINE</span>
             <span className="block text-[10px] leading-none text-muted-foreground">Cloud Mining</span>
           </div>
         </div>

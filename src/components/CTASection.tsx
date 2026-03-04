@@ -22,7 +22,7 @@ const CTASection = () => {
           <p className="text-sm font-medium text-primary">Start Free Today</p>
           <h2 className="mt-2 text-4xl font-bold">Ready to Start Mining?</h2>
           <p className="mx-auto mt-4 max-w-lg text-muted-foreground">
-            Join thousands of miners earning PEPE rewards every day. Create your free account and start your journey now.
+            Join thousands of miners earning BNB rewards every day. Create your free account and start your journey now.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">

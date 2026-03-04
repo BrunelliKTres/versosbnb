@@ -37,7 +37,7 @@ const HeroSection = () => {
           </div>
 
           <h1 className="text-5xl font-bold leading-tight tracking-tight md:text-6xl lg:text-7xl">
-            Mine <span className="neon-text text-primary">PEPECOIN</span>
+            Mine <span className="neon-text text-primary">BNB</span>
             <br />
             In The Cloud
           </h1>
@@ -45,7 +45,7 @@ const HeroSection = () => {
           <p className="max-w-md text-lg text-muted-foreground">
             The most powerful cloud mining platform.{" "}
             <span className="text-primary">No hardware</span>, no hassle. Start earning{" "}
-            <span className="font-semibold text-foreground">PEPE</span> right now.
+            <span className="font-semibold text-foreground">BNB</span> right now.
           </p>
 
           <div className="flex flex-wrap items-center gap-4">
@@ -84,7 +84,7 @@ const HeroSection = () => {
                 <span className="h-2 w-2 animate-pulse-glow rounded-full bg-primary" />
                 <span className="text-sm font-semibold text-primary">Mining Active</span>
               </div>
-              <span className="text-xs text-muted-foreground">+2.5M PEPE/day</span>
+              <span className="text-xs text-muted-foreground">+0.25 BNB/day</span>
             </motion.div>
 
             {/* Floating badge - Hashrate */}
