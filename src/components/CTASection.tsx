@@ -1,6 +1,7 @@
 import { Zap, Shield, Clock, Headphones, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const badges = [
   { icon: Shield, label: "SSL Secure" },
@@ -26,12 +27,11 @@ const CTASection = () => {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-            <Button size="lg" className="gap-2 bg-primary px-8 font-display text-lg text-primary-foreground hover:bg-primary/90">
-              <Zap className="h-4 w-4" />
-              Create Free Account
+            <Button size="lg" className="gap-2 bg-primary px-8 font-display text-lg text-primary-foreground hover:bg-primary/90" asChild>
+              <Link to="/login"><Zap className="h-4 w-4" /> Create Free Account</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-border px-8 font-display text-lg text-foreground hover:bg-secondary">
-              I have an account
+            <Button size="lg" variant="outline" className="border-border px-8 font-display text-lg text-foreground hover:bg-secondary" asChild>
+              <Link to="/login">I have an account</Link>
             </Button>
           </div>
 

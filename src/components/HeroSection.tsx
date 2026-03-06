@@ -1,6 +1,7 @@
 import { Zap, ArrowRight, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import pepeMiner from "@/assets/pepe-miner.png";
 
 const HeroSection = () => {
@@ -49,13 +50,11 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-wrap items-center gap-4">
-            <Button size="lg" className="gap-2 bg-primary px-8 font-display text-lg text-primary-foreground hover:bg-primary/90 neon-border">
-              <Zap className="h-4 w-4" />
-              START MINING FREE
+            <Button size="lg" className="gap-2 bg-primary px-8 font-display text-lg text-primary-foreground hover:bg-primary/90 neon-border" asChild>
+              <Link to="/login"><Zap className="h-4 w-4" /> START MINING FREE</Link>
             </Button>
-            <Button size="lg" variant="outline" className="gap-2 border-border px-8 font-display text-lg text-foreground hover:bg-secondary">
-              Sign In
-              <ArrowRight className="h-4 w-4" />
+            <Button size="lg" variant="outline" className="gap-2 border-border px-8 font-display text-lg text-foreground hover:bg-secondary" asChild>
+              <Link to="/login">Sign In <ArrowRight className="h-4 w-4" /></Link>
             </Button>
           </div>
         </motion.div>
